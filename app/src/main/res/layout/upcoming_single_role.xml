@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="15dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/upcoming_row"
+        android:id="@+id/upcomingEventRow">
+
+        <TextView
+            android:id="@+id/upcomingEventName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:text="upcomingEventName"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_light"/>
+
+        <TextView
+            android:id="@+id/upcomingEventArtist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="upcomingEventArtist"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="18sp"
+            android:layout_marginLeft="8dp"/>
+
+        <TextView
+            android:id="@+id/upcomingEventTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="upcomingEventTime"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            android:layout_marginLeft="8dp"/>
+
+        <TextView
+            android:id="@+id/upcomingEventType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="upcomingEventType"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:layout_marginLeft="8dp"/>
+
+        <TextView
+            android:id="@+id/upcomingURL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="upcomingURL"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:layout_marginLeft="8dp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</LinearLayout>
