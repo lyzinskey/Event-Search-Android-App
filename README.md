@@ -1,3 +1,4 @@
 # Event-Search-Android-App
 
-Demo video: https://www.youtube.com/watch?v=P9ZACaMC08I&feature=youtu.be
+Demo video: https://youtu.be/8FFdW4KNa5I
+
